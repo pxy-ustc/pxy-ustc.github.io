@@ -3,13 +3,24 @@
   <entry>
     <title>GitHub 学习（第 1 章）</title>
     <url>/2021/04/30/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%201%20%E7%AB%A0%EF%BC%89/</url>
-    <content><![CDATA[<h2 id="第-1-章：欢迎来到-GitHub-的世界"><a href="#第-1-章：欢迎来到-GitHub-的世界" class="headerlink" title="第 1 章：欢迎来到 GitHub 的世界"></a>第 1 章：欢迎来到 GitHub 的世界</h2><h3 id="1-1-什么是-GitHub"><a href="#1-1-什么是-GitHub" class="headerlink" title="1.1 什么是 GitHub?"></a>1.1 什么是 GitHub?</h3><p>GitHub 是为开发者提供 Git 仓库的托管服务。<br><img src="/2021/04/30/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%201%20%E7%AB%A0%EF%BC%89/2021-04-30-19-28-24.png" alt="GitHub 界面"></p>
-<h4 id="1-1-1-GitHub-与-Git-的区别"><a href="#1-1-1-GitHub-与-Git-的区别" class="headerlink" title="1.1.1 GitHub 与 Git 的区别"></a>1.1.1 GitHub 与 Git 的区别</h4><p>本地 Git：管理“Git 仓库”中的源代码。<br>网络 GitHub：将“Git 仓库”公开于网络。</p>
+    <content><![CDATA[<h2 id="第-1-章：欢迎来到-GitHub-的世界"><a class="header-anchor" href="#第-1-章：欢迎来到-GitHub-的世界">¶</a>第 1 章：欢迎来到 GitHub 的世界</h2>
+<h3 id="1-1-什么是-GitHub"><a class="header-anchor" href="#1-1-什么是-GitHub">¶</a>1.1 什么是 GitHub?</h3>
+<p>GitHub 是为开发者提供 Git 仓库的托管服务。<br>
+<img src="/2021/04/30/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%201%20%E7%AB%A0%EF%BC%89/2021-04-30-19-28-24.png" alt="GitHub 界面"></p>
+<h4 id="1-1-1-GitHub-与-Git-的区别"><a class="header-anchor" href="#1-1-1-GitHub-与-Git-的区别">¶</a>1.1.1 GitHub 与 Git 的区别</h4>
+<p>本地 Git：管理“Git 仓库”中的源代码。<br>
+网络 GitHub：将“Git 仓库”公开于网络。</p>
 <span id="more"></span>
-
-<h3 id="1-2-为什么使用-GitHub？"><a href="#1-2-为什么使用-GitHub？" class="headerlink" title="1.2 为什么使用 GitHub？"></a>1.2 为什么使用 GitHub？</h3><h4 id="1-2-1-关于-Pull-Request"><a href="#1-2-1-关于-Pull-Request" class="headerlink" title="1.2.1 关于 Pull Request"></a>1.2.1 关于 Pull Request</h4><p>功能：<br>（1）开发者在本地对源代码进行更改后，向 GitHub 中托管的 Git 仓库请求合并。<br>（2）对比源代码前后差别。<br>（3）针对指定代码进行讨论交流。</p>
-<h4 id="1-2-2-关于-Issue"><a href="#1-2-2-关于-Issue" class="headerlink" title="1.2.2 关于 Issue"></a>1.2.2 关于 Issue</h4><p>将一个任务或问题分配给一个 Issue 进行追踪和管理，任务管理和 BUG 报告可以通过 Issue 进行交互，每一个功能更改或修正都对应一个 Issue。</p>
-<h4 id="1-2-3-关于-Wiki"><a href="#1-2-3-关于-Wiki" class="headerlink" title="1.2.3 关于 Wiki"></a>1.2.3 关于 Wiki</h4><p>通过 Wiki 功能，方便多人共同完成一篇文章。多用于开发文档或手册的编写。</p>
+<h3 id="1-2-为什么使用-GitHub？"><a class="header-anchor" href="#1-2-为什么使用-GitHub？">¶</a>1.2 为什么使用 GitHub？</h3>
+<h4 id="1-2-1-关于-Pull-Request"><a class="header-anchor" href="#1-2-1-关于-Pull-Request">¶</a>1.2.1 关于 Pull Request</h4>
+<p>功能：<br>
+（1）开发者在本地对源代码进行更改后，向 GitHub 中托管的 Git 仓库请求合并。<br>
+（2）对比源代码前后差别。<br>
+（3）针对指定代码进行讨论交流。</p>
+<h4 id="1-2-2-关于-Issue"><a class="header-anchor" href="#1-2-2-关于-Issue">¶</a>1.2.2 关于 Issue</h4>
+<p>将一个任务或问题分配给一个 Issue 进行追踪和管理，任务管理和 BUG 报告可以通过 Issue 进行交互，每一个功能更改或修正都对应一个 Issue。</p>
+<h4 id="1-2-3-关于-Wiki"><a class="header-anchor" href="#1-2-3-关于-Wiki">¶</a>1.2.3 关于 Wiki</h4>
+<p>通过 Wiki 功能，方便多人共同完成一篇文章。多用于开发文档或手册的编写。</p>
 ]]></content>
       <categories>
         <category>学习</category>
@@ -21,45 +32,48 @@
   <entry>
     <title>SiGe HBT 器件选型</title>
     <url>/2021/04/29/SiGe%20HBT%20%E5%99%A8%E4%BB%B6%E9%80%89%E5%9E%8B/</url>
-    <content><![CDATA[<h2 id="购买途径贸泽商城"><a href="#购买途径贸泽商城" class="headerlink" title="购买途径贸泽商城"></a>购买途径<a href="https://www.mouser.cn/">贸泽商城</a></h2><table>
+    <content><![CDATA[<h2 id="购买途径贸泽商城"><a class="header-anchor" href="#购买途径贸泽商城">¶</a>购买途径<a href="https://www.mouser.cn/">贸泽商城</a></h2>
+<table>
 <thead>
 <tr>
-<th align="left">型号</th>
-<th align="left">厂家</th>
-<th align="left">工作频率</th>
-<th align="left">封装</th>
-<th align="left">生产日期</th>
+<th style="text-align:left">型号</th>
+<th style="text-align:left">厂家</th>
+<th style="text-align:left">工作频率</th>
+<th style="text-align:left">封装</th>
+<th style="text-align:left">生产日期</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="left">BFP840ESD</td>
-<td align="left">Infineon英飞凌</td>
-<td align="left">80GHz</td>
-<td align="left">SOT343</td>
-<td align="left">2018-09-26</td>
+<tbody>
+<tr>
+<td style="text-align:left">BFP840ESD</td>
+<td style="text-align:left">Infineon英飞凌</td>
+<td style="text-align:left">80GHz</td>
+<td style="text-align:left">SOT343</td>
+<td style="text-align:left">2018-09-26</td>
 </tr>
 <tr>
-<td align="left">BFP740ESD</td>
-<td align="left">Infineon英飞凌</td>
-<td align="left">47GHz</td>
-<td align="left">SOT343</td>
-<td align="left">2018-09-26</td>
+<td style="text-align:left">BFP740ESD</td>
+<td style="text-align:left">Infineon英飞凌</td>
+<td style="text-align:left">47GHz</td>
+<td style="text-align:left">SOT343</td>
+<td style="text-align:left">2018-09-26</td>
 </tr>
 <tr>
-<td align="left">BFP640ESD</td>
-<td align="left">Infineon英飞凌</td>
-<td align="left">46GHz</td>
-<td align="left">SOT343</td>
-<td align="left">2019-01-25</td>
+<td style="text-align:left">BFP640ESD</td>
+<td style="text-align:left">Infineon英飞凌</td>
+<td style="text-align:left">46GHz</td>
+<td style="text-align:left">SOT343</td>
+<td style="text-align:left">2019-01-25</td>
 </tr>
 <tr>
-<td align="left">BFU690F</td>
-<td align="left">NXP恩智浦</td>
-<td align="left">18GHz</td>
-<td align="left">SOT343</td>
-<td align="left">2014-03-14</td>
+<td style="text-align:left">BFU690F</td>
+<td style="text-align:left">NXP恩智浦</td>
+<td style="text-align:left">18GHz</td>
+<td style="text-align:left">SOT343</td>
+<td style="text-align:left">2014-03-14</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 ]]></content>
       <categories>
         <category>工作</category>
@@ -71,7 +85,8 @@
   <entry>
     <title>第一个博客</title>
     <url>/2021/04/29/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="破壳而出"><a href="#破壳而出" class="headerlink" title="破壳而出"></a>破壳而出</h2>]]></content>
+    <content><![CDATA[<h2 id="破壳而出👶"><a class="header-anchor" href="#破壳而出👶">¶</a>破壳而出👶</h2>
+]]></content>
       <categories>
         <category>测试</category>
       </categories>
