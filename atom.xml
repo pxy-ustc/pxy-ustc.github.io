@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nemo Pan&#39;s Blog</title>
+  
+  <subtitle>驾着七彩祥云</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-04-30T14:37:06.804Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Nemo Pan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitHub 学习（第 1 章）</title>
+    <link href="http://example.com/2021/04/30/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%201%20%E7%AB%A0%EF%BC%89/"/>
+    <id>http://example.com/2021/04/30/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%201%20%E7%AB%A0%EF%BC%89/</id>
+    <published>2021-04-30T10:31:27.000Z</published>
+    <updated>2021-04-30T14:37:06.804Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第-1-章：欢迎来到-GitHub-的世界"><a href="#第-1-章：欢迎来到-GitHub-的世界" class="headerlink" title="第 1 章：欢迎来到 GitHub 的世界"></a>第 1 章：欢迎来到 GitHub 的世界</h2><h3 id="1-1-什么是-GitHub"><a href="#1-1-什么是-GitHub" class="headerlink" title="1.1 什么是 GitHub?"></a>1.1 什么是 GitHub?</h3><p>GitHub 是为开发者提供 Git 仓库的托管服务。<br><img src="/2021/04/30/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%201%20%E7%AB%A0%EF%BC%89/2021-04-30-19-28-24.png" alt="GitHub 界面"></p><h4 id="1-1-1-GitHub-与-Git-的区别"><a href="#1-1-1-GitHub-与-Git-的区别" class="headerlink" title="1.1.1 GitHub 与 Git 的区别"></a>1.1.1 GitHub 与 Git 的区别</h4><p>本地 Git：管理“Git 仓库”中的源代码。<br>网络 GitHub：将“Git 仓库”公开于网络。</p><span id="more"></span><h3 id="1-2-为什么使用-GitHub？"><a href="#1-2-为什么使用-GitHub？" class="headerlink" title="1.2 为什么使用 GitHub？"></a>1.2 为什么使用 GitHub？</h3><h4 id="1-2-1-关于-Pull-Request"><a href="#1-2-1-关于-Pull-Request" class="headerlink" title="1.2.1 关于 Pull Request"></a>1.2.1 关于 Pull Request</h4><p>功能：<br>（1）开发者在本地对源代码进行更改后，向 GitHub 中托管的 Git 仓库请求合并。<br>（2）对比源代码前后差别。<br>（3）针对指定代码进行讨论交流。</p><h4 id="1-2-2-关于-Issue"><a href="#1-2-2-关于-Issue" class="headerlink" title="1.2.2 关于 Issue"></a>1.2.2 关于 Issue</h4><p>将一个任务或问题分配给一个 Issue 进行追踪和管理，任务管理和 BUG 报告可以通过 Issue 进行交互，每一个功能更改或修正都对应一个 Issue。</p><h4 id="1-2-3-关于-Wiki"><a href="#1-2-3-关于-Wiki" class="headerlink" title="1.2.3 关于 Wiki"></a>1.2.3 关于 Wiki</h4><p>通过 Wiki 功能，方便多人共同完成一篇文章。多用于开发文档或手册的编写。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;第-1-章：欢迎来到-GitHub-的世界&quot;&gt;&lt;a href=&quot;#第-1-章：欢迎来到-GitHub-的世界&quot; class=&quot;headerlink&quot; title=&quot;第 1 章：欢迎来到 GitHub 的世界&quot;&gt;&lt;/a&gt;第 1 章：欢迎来到 GitHub 的世界&lt;/h2&gt;&lt;h3 id=&quot;1-1-什么是-GitHub&quot;&gt;&lt;a href=&quot;#1-1-什么是-GitHub&quot; class=&quot;headerlink&quot; title=&quot;1.1 什么是 GitHub?&quot;&gt;&lt;/a&gt;1.1 什么是 GitHub?&lt;/h3&gt;&lt;p&gt;GitHub 是为开发者提供 Git 仓库的托管服务。&lt;br&gt;&lt;img src=&quot;/2021/04/30/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%201%20%E7%AB%A0%EF%BC%89/2021-04-30-19-28-24.png&quot; alt=&quot;GitHub 界面&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;1-1-1-GitHub-与-Git-的区别&quot;&gt;&lt;a href=&quot;#1-1-1-GitHub-与-Git-的区别&quot; class=&quot;headerlink&quot; title=&quot;1.1.1 GitHub 与 Git 的区别&quot;&gt;&lt;/a&gt;1.1.1 GitHub 与 Git 的区别&lt;/h4&gt;&lt;p&gt;本地 Git：管理“Git 仓库”中的源代码。&lt;br&gt;网络 GitHub：将“Git 仓库”公开于网络。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SiGe HBT 器件选型</title>
+    <link href="http://example.com/2021/04/29/SiGe%20HBT%20%E5%99%A8%E4%BB%B6%E9%80%89%E5%9E%8B/"/>
+    <id>http://example.com/2021/04/29/SiGe%20HBT%20%E5%99%A8%E4%BB%B6%E9%80%89%E5%9E%8B/</id>
+    <published>2021-04-29T01:40:55.000Z</published>
+    <updated>2021-04-30T14:37:01.439Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="购买途径贸泽商城"><a href="#购买途径贸泽商城" class="headerlink" title="购买途径贸泽商城"></a>购买途径<a href="https://www.mouser.cn/">贸泽商城</a></h2><table><thead><tr><th align="left">型号</th><th align="left">厂家</th><th align="left">工作频率</th><th align="left">封装</th><th align="left">生产日期</th></tr></thead><tbody><tr><td align="left">BFP840ESD</td><td align="left">Infineon英飞凌</td><td align="left">80GHz</td><td align="left">SOT343</td><td align="left">2018-09-26</td></tr><tr><td align="left">BFP740ESD</td><td align="left">Infineon英飞凌</td><td align="left">47GHz</td><td align="left">SOT343</td><td align="left">2018-09-26</td></tr><tr><td align="left">BFP640ESD</td><td align="left">Infineon英飞凌</td><td align="left">46GHz</td><td align="left">SOT343</td><td align="left">2019-01-25</td></tr><tr><td align="left">BFU690F</td><td align="left">NXP恩智浦</td><td align="left">18GHz</td><td align="left">SOT343</td><td align="left">2014-03-14</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;购买途径贸泽商城&quot;&gt;&lt;a href=&quot;#购买途径贸泽商城&quot; class=&quot;headerlink&quot; title=&quot;购买途径贸泽商城&quot;&gt;&lt;/a&gt;购买途径&lt;a href=&quot;https://www.mouser.cn/&quot;&gt;贸泽商城&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;the</summary>
+      
+    
+    
+    
+    <category term="工作" scheme="http://example.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+    <category term="SiGe" scheme="http://example.com/tags/SiGe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一个博客</title>
+    <link href="http://example.com/2021/04/29/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2021/04/29/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-04-28T16:25:50.000Z</published>
+    <updated>2021-04-30T14:34:24.548Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="破壳而出"><a href="#破壳而出" class="headerlink" title="破壳而出"></a>破壳而出</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;破壳而出&quot;&gt;&lt;a href=&quot;#破壳而出&quot; class=&quot;headerlink&quot; title=&quot;破壳而出&quot;&gt;&lt;/a&gt;破壳而出&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    <category term="测试" scheme="http://example.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+</feed>
