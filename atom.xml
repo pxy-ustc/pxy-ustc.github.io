@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-30T14:37:06.804Z</updated>
+  <updated>2021-05-01T08:58:15.160Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitHub 学习（第 3 章）</title>
+    <link href="http://example.com/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%203%20%E7%AB%A0%EF%BC%89/"/>
+    <id>http://example.com/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%203%20%E7%AB%A0%EF%BC%89/</id>
+    <published>2021-05-01T05:20:59.000Z</published>
+    <updated>2021-05-01T08:58:15.160Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第-3-章：使用-GitHub-的前期准备"><a class="header-anchor" href="#第-3-章：使用-GitHub-的前期准备">¶</a>第 3 章：使用 GitHub 的前期准备</h2><h3 id="3-1-使用前的准备"><a class="header-anchor" href="#3-1-使用前的准备">¶</a>3.1 使用前的准备</h3><h4 id="3-1-1-设置-SSH-Key"><a class="header-anchor" href="#3-1-1-设置-SSH-Key">¶</a>3.1.1 设置 SSH Key</h4><p>GitHub 上连接已有仓库时的认证，是通过使用了 SSH 的公开密钥认证方式进行的。</p><h4 id="3-1-2-使用社区功能"><a class="header-anchor" href="#3-1-2-使用社区功能">¶</a>3.1.2 使用社区功能</h4><p>通过 Follow 感兴趣的人，来知道他在 GitHub 上的行为。<br><img src="/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%203%20%E7%AB%A0%EF%BC%89/2021-05-01-16-17-07.png" alt="Follow"><br>对于仓库，还可以用 Watch 功能获取最新的开发信息。<br><img src="/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%203%20%E7%AB%A0%EF%BC%89/2021-05-01-16-19-06.png" alt="Watch"></p><span id="more"></span><h3 id="3-2-实际动手使用"><a class="header-anchor" href="#3-2-实际动手使用">¶</a>3.2 实际动手使用</h3><h4 id="3-2-1-clone-已有仓库"><a class="header-anchor" href="#3-2-1-clone-已有仓库">¶</a>3.2.1 clone 已有仓库</h4><p>将已有的仓库 clone 到身边的开发环境中。<br><img src="/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%203%20%E7%AB%A0%EF%BC%89/2021-05-01-16-30-34.png" alt="clone"><br>在 Git Bash 中输入以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:hirocastest/Hello-World.git</span><br></pre></td></tr></table></figure><p>在输入 GitHub 上设置的公开密钥的密码，并认证成功后，仓库便会被 clone 至仓库名后的目录中。将想要公开的代码提交至这个仓库再 push 到 GitHub 仓库中，代码便会被公开。</p><h4 id="3-2-2-编写代码"><a class="header-anchor" href="#3-2-2-编写代码">¶</a>3.2.2 编写代码</h4><p>编写代码文件后，例如 hello_world.php，由于还未被添加至 Git 仓库，所以输入命令 <code>git status</code> 显示为 Untracked files。</p><h4 id="3-2-3-提交代码"><a class="header-anchor" href="#3-2-3-提交代码">¶</a>3.2.3 提交代码</h4><p>将 hello_world.php 提交至仓库，该文件就进入版本管理系统的管理之下，由 Git 进行管理。</p><p>通过 <code>git add</code> 命令将文件加入暂存区，再通过 <code>git commit</code> 命令提交。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add hello_world.php</span><br><span class="line">git commit -m <span class="string">&quot;Add hello world script by php&quot;</span></span><br></pre></td></tr></table></figure><p>添加成功后，可以通过 <code>git log</code> 命令查看提交日志。</p><h4 id="3-2-4-进行-push"><a class="header-anchor" href="#3-2-4-进行-push">¶</a>3.2.4 进行 push</h4><p>之后只要执行 push，GitHub 上的仓库就会被更新。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push</span><br></pre></td></tr></table></figure><p>这样一来，代码就在 GitHub 上公开了。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;第-3-章：使用-GitHub-的前期准备&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#第-3-章：使用-GitHub-的前期准备&quot;&gt;¶&lt;/a&gt;第 3 章：使用 GitHub 的前期准备&lt;/h2&gt;
+&lt;h3 id=&quot;3-1-使用前的准备&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#3-1-使用前的准备&quot;&gt;¶&lt;/a&gt;3.1 使用前的准备&lt;/h3&gt;
+&lt;h4 id=&quot;3-1-1-设置-SSH-Key&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#3-1-1-设置-SSH-Key&quot;&gt;¶&lt;/a&gt;3.1.1 设置 SSH Key&lt;/h4&gt;
+&lt;p&gt;GitHub 上连接已有仓库时的认证，是通过使用了 SSH 的公开密钥认证方式进行的。&lt;/p&gt;
+&lt;h4 id=&quot;3-1-2-使用社区功能&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#3-1-2-使用社区功能&quot;&gt;¶&lt;/a&gt;3.1.2 使用社区功能&lt;/h4&gt;
+&lt;p&gt;通过 Follow 感兴趣的人，来知道他在 GitHub 上的行为。&lt;br&gt;
+&lt;img src=&quot;/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%203%20%E7%AB%A0%EF%BC%89/2021-05-01-16-17-07.png&quot; alt=&quot;Follow&quot;&gt;&lt;br&gt;
+对于仓库，还可以用 Watch 功能获取最新的开发信息。&lt;br&gt;
+&lt;img src=&quot;/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%203%20%E7%AB%A0%EF%BC%89/2021-05-01-16-19-06.png&quot; alt=&quot;Watch&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub 学习（第 2 章）</title>
+    <link href="http://example.com/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%202%20%E7%AB%A0%EF%BC%89/"/>
+    <id>http://example.com/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%202%20%E7%AB%A0%EF%BC%89/</id>
+    <published>2021-05-01T02:23:32.000Z</published>
+    <updated>2021-05-01T05:29:01.550Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第-2-章：Git-的导入"><a class="header-anchor" href="#第-2-章：Git-的导入">¶</a>第 2 章：Git 的导入</h2><h3 id="2-1-什么是-Git"><a class="header-anchor" href="#2-1-什么是-Git">¶</a>2.1 什么是 Git?</h3><p>Git 属于分散型版本管理系统，是为版本管理而设计的软件。</p><h3 id="2-2-什么是版本管理？"><a class="header-anchor" href="#2-2-什么是版本管理？">¶</a>2.2 什么是版本管理？</h3><p>版本管理就是管理更新的历史记录，例如记录一款软件添加或更改源代码的过程，回滚到特定阶段，恢复误删除的文件等。</p><span id="more"></span><h4 id="2-2-1-集中型和分散型"><a class="header-anchor" href="#2-2-1-集中型和分散型">¶</a>2.2.1 集中型和分散型</h4><p>（1）集中型：将数据集中存放在服务器中，只有一个仓库。<br><img src="/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%202%20%E7%AB%A0%EF%BC%89/2021-05-01-12-05-27.png" alt="集中型"><br>（2）分散型：拥有多个仓库，所有仓库之间都可进行 push 和 pull。<br><img src="/2021/05/01/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%202%20%E7%AB%A0%EF%BC%89/2021-05-01-12-10-53.png" alt="分散型"></p><h3 id="2-3-安装Git"><a class="header-anchor" href="#2-3-安装Git">¶</a>2.3 安装Git</h3><h4 id="2-3-1-Windows-下安装-Git"><a class="header-anchor" href="#2-3-1-Windows-下安装-Git">¶</a>2.3.1 Windows 下安装 Git</h4><p>最简单快捷的方法是使用<a href="http://msysgit.github.io/">msysGit</a></p><h4 id="2-3-2-关于-Git-Bash"><a class="header-anchor" href="#2-3-2-关于-Git-Bash">¶</a>2.3.2 关于 Git Bash</h4><p>专门用于执行 Git 命令的命令行提示符。</p><h3 id="2-4-初始设置"><a class="header-anchor" href="#2-4-初始设置">¶</a>2.4 初始设置</h3><h4 id="2-4-1-设置姓名和邮箱地址"><a class="header-anchor" href="#2-4-1-设置姓名和邮箱地址">¶</a>2.4.1 设置姓名和邮箱地址</h4><p>首先设置使用 Git 时的姓名和邮箱地址，名字请用英文输入。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;Firstname Lastname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;your_email@example.com&quot;</span></span><br></pre></td></tr></table></figure><p>注意：请不要使用不方便公开的信息。</p><h4 id="2-4-2-提高命令输出的可读性"><a class="header-anchor" href="#2-4-2-提高命令输出的可读性">¶</a>2.4.2 提高命令输出的可读性</h4><p>将 color.ui 设置为 auto。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global color.ui auto</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;第-2-章：Git-的导入&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#第-2-章：Git-的导入&quot;&gt;¶&lt;/a&gt;第 2 章：Git 的导入&lt;/h2&gt;
+&lt;h3 id=&quot;2-1-什么是-Git&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#2-1-什么是-Git&quot;&gt;¶&lt;/a&gt;2.1 什么是 Git?&lt;/h3&gt;
+&lt;p&gt;Git 属于分散型版本管理系统，是为版本管理而设计的软件。&lt;/p&gt;
+&lt;h3 id=&quot;2-2-什么是版本管理？&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#2-2-什么是版本管理？&quot;&gt;¶&lt;/a&gt;2.2 什么是版本管理？&lt;/h3&gt;
+&lt;p&gt;版本管理就是管理更新的历史记录，例如记录一款软件添加或更改源代码的过程，回滚到特定阶段，恢复误删除的文件等。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+  </entry>
   
   <entry>
     <title>GitHub 学习（第 1 章）</title>
