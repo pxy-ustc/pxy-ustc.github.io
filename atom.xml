@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-05-01T08:58:15.160Z</updated>
+  <updated>2021-05-02T02:24:05.246Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitHub 学习（第 4 章）</title>
+    <link href="http://example.com/2021/05/02/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%204%20%E7%AB%A0%EF%BC%89/"/>
+    <id>http://example.com/2021/05/02/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%204%20%E7%AB%A0%EF%BC%89/</id>
+    <published>2021-05-02T01:15:19.000Z</published>
+    <updated>2021-05-02T02:24:05.246Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第-4-章：通过实际操作学习-Git"><a class="header-anchor" href="#第-4-章：通过实际操作学习-Git">¶</a>第 4 章：通过实际操作学习 Git</h2><h3 id="4-1-基本操作"><a class="header-anchor" href="#4-1-基本操作">¶</a>4.1 基本操作</h3><h4 id="4-1-1-初始化仓库"><a class="header-anchor" href="#4-1-1-初始化仓库">¶</a>4.1.1 初始化仓库</h4><p>要使用 Git 进行版本管理，必须先初始化仓库。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir git-tutorial</span><br><span class="line"><span class="built_in">cd</span> git-tutorial</span><br><span class="line">git init</span><br></pre></td></tr></table></figure><p>其中工作目录中的内容称为“附属于该仓库的工作树”。</p><span id="more"></span><h4 id="4-1-2-查看仓库的状态"><a class="header-anchor" href="#4-1-2-查看仓库的状态">¶</a>4.1.2 查看仓库的状态</h4><p><code>git status</code> 命令用于显示 Git 仓库的状态。</p><h4 id="4-1-3-向暂存区中添加文件"><a class="header-anchor" href="#4-1-3-向暂存区中添加文件">¶</a>4.1.3 向暂存区中添加文件</h4><p>要让文件成为 Git 仓库的管理对象，就需要用 git add 命令将其加入暂存区（ stage 或者 Index ）中。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add README.md</span><br><span class="line">git status</span><br></pre></td></tr></table></figure><h4 id="4-1-4-保存仓库的历史记录"><a class="header-anchor" href="#4-1-4-保存仓库的历史记录">¶</a>4.1.4 保存仓库的历史记录</h4><p><code>git commit</code> 命令可以将当前暂存区中的文件实际保存到仓库的历史记录中。通过这些记录，我们就能在工作树中复员文件。</p><h4 id="4-1-5-查看提交日志"><a class="header-anchor" href="#4-1-5-查看提交日志">¶</a>4.1.5 查看提交日志</h4><p><code>git log</code> 命令可以查看以往仓库中提交的日志。</p><h4 id="4-1-6-查看更改前后的差别"><a class="header-anchor" href="#4-1-6-查看更改前后的差别">¶</a>4.1.6 查看更改前后的差别</h4><p><code>git diff</code> 命令可以查看工作树、暂存区、最新提交之间的差别。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;第-4-章：通过实际操作学习-Git&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#第-4-章：通过实际操作学习-Git&quot;&gt;¶&lt;/a&gt;第 4 章：通过实际操作学习 Git&lt;/h2&gt;
+&lt;h3 id=&quot;4-1-基本操作&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#4-1-基本操作&quot;&gt;¶&lt;/a&gt;4.1 基本操作&lt;/h3&gt;
+&lt;h4 id=&quot;4-1-1-初始化仓库&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#4-1-1-初始化仓库&quot;&gt;¶&lt;/a&gt;4.1.1 初始化仓库&lt;/h4&gt;
+&lt;p&gt;要使用 Git 进行版本管理，必须先初始化仓库。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;mkdir git-tutorial&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; git-tutorial&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;其中工作目录中的内容称为“附属于该仓库的工作树”。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+  </entry>
   
   <entry>
     <title>GitHub 学习（第 3 章）</title>
