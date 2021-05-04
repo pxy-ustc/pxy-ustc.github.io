@@ -124,6 +124,37 @@
 <p><code>git log</code> 命令可以查看以往仓库中提交的日志。</p>
 <h4 id="4-1-6-查看更改前后的差别"><a class="header-anchor" href="#4-1-6-查看更改前后的差别">¶</a>4.1.6 查看更改前后的差别</h4>
 <p><code>git diff</code> 命令可以查看工作树、暂存区、最新提交之间的差别。</p>
+<h3 id="4-2-分支的操作"><a class="header-anchor" href="#4-2-分支的操作">¶</a>4.2 分支的操作</h3>
+<p>在进行多个并行作业时，我们会用到分支。在这类并行开发的过程中，往往同时存在多个最新代码状态。<br>
+<img src="/2021/05/02/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%204%20%E7%AB%A0%EF%BC%89/2021-05-04-19-22-12.png" alt="分支"><br>
+不同分支中，可以同时进行完全不同的作业。等该分支的作业完成后再与master分支合并。<br>
+<img src="/2021/05/02/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%204%20%E7%AB%A0%EF%BC%89/2021-05-04-19-25-55.png" alt="分支结束"></p>
+<h4 id="4-2-1-显示分支一览表"><a class="header-anchor" href="#4-2-1-显示分支一览表">¶</a>4.2.1 显示分支一览表</h4>
+<p><code>git branch</code> 命令可以将分支名列表显示，同时可以确认当前所在的分支。</p>
+<h4 id="4-2-2-创建、切换分支"><a class="header-anchor" href="#4-2-2-创建、切换分支">¶</a>4.2.2 创建、切换分支</h4>
+<p>以当前 master 分支为基础创建新的分支，需要用到 <code>git checkout -b</code>命令。</p>
+<h4 id="4-2-3-特性分支与主干分支"><a class="header-anchor" href="#4-2-3-特性分支与主干分支">¶</a>4.2.3 特性分支与主干分支</h4>
+<p>特性分支是集中实现单一特性（主题），除此之外不进行任何作业的分支。通常用 master 为主干分支，也是合并的终点。<br>
+<img src="/2021/05/02/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%204%20%E7%AB%A0%EF%BC%89/2021-05-04-20-06-52.png" alt="特性分支"></p>
+<h4 id="4-2-4-合并分支"><a class="header-anchor" href="#4-2-4-合并分支">¶</a>4.2.4 合并分支</h4>
+<p>利用 <code>git merge</code> 命令可以将分支合并到 master 主干分支。</p>
+<h4 id="4-2-5-以图表形式查看分支"><a class="header-anchor" href="#4-2-5-以图表形式查看分支">¶</a>4.2.5 以图表形式查看分支</h4>
+<p>以图表形式输出提交日志需要用到 <code>git log --graph</code> 命令，非常直观。</p>
+<h3 id="4-3-更改提交的操作"><a class="header-anchor" href="#4-3-更改提交的操作">¶</a>4.3 更改提交的操作</h3>
+<p>Git 的另一特性是可以灵活操作历史版本。</p>
+<h4 id="4-3-1-回溯历史版本"><a class="header-anchor" href="#4-3-1-回溯历史版本">¶</a>4.3.1 回溯历史版本</h4>
+<p>例如，回溯到创建 feature-A 分支之前，创建一个 fix-B 特性分支。<br>
+<img src="/2021/05/02/GitHub%20%E5%AD%A6%E4%B9%A0%EF%BC%88%E7%AC%AC%204%20%E7%AB%A0%EF%BC%89/2021-05-04-20-16-04.png" alt="回溯历史"><br>
+要让仓库的 HEAD、暂存区、当前工作树回溯到指定状态，需要用到 <code>git reset --hard</code> 命令。执行 <code>git reflog</code> 命令，查看当前仓库执行过的操作的日志。</p>
+<h4 id="4-3-2-修改提交信息"><a class="header-anchor" href="#4-3-2-修改提交信息">¶</a>4.3.2 修改提交信息</h4>
+<p>要修改提交的信息，可以执行 <code>git commit --amend</code> 命令。</p>
+<h3 id="4-4-推送至远程仓库"><a class="header-anchor" href="#4-4-推送至远程仓库">¶</a>4.4 推送至远程仓库</h3>
+<p>使用 <code>git remote add</code> 命令设置本地仓库的远程仓库。将当前分支下本地仓库的内容推送至远程仓库，需要用到 <code>git push</code> 命令。</p>
+<h3 id="4-5-从远程仓库获取"><a class="header-anchor" href="#4-5-从远程仓库获取">¶</a>4.5 从远程仓库获取</h3>
+<h4 id="4-5-1-获取远程仓库"><a class="header-anchor" href="#4-5-1-获取远程仓库">¶</a>4.5.1 获取远程仓库</h4>
+<p>执行 <code>git clone</code> 命令将 Github 上的仓库 clone 至本地。</p>
+<h4 id="4-5-2-获取最新的远程仓库分支"><a class="header-anchor" href="#4-5-2-获取最新的远程仓库分支">¶</a>4.5.2 获取最新的远程仓库分支</h4>
+<p>执行 <code>git pull</code> 命令，可以将本地仓库更新至最新状态。</p>
 ]]></content>
       <categories>
         <category>学习</category>
