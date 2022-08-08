@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-05-04T12:58:24.543Z</updated>
+  <updated>2022-08-08T14:39:29.412Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>毫米波雷达基础（一）</title>
+    <link href="http://example.com/2022/08/08/%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://example.com/2022/08/08/%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89/</id>
+    <published>2022-08-08T14:38:21.000Z</published>
+    <updated>2022-08-08T14:39:29.412Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="毫米波雷达的优点"><a class="header-anchor" href="#毫米波雷达的优点">¶</a>毫米波雷达的优点</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;毫米波雷达的优点&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#毫米波雷达的优点&quot;&gt;¶&lt;/a&gt;毫米波雷达的优点&lt;/h2&gt;
+</summary>
+      
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+  </entry>
   
   <entry>
     <title>GitHub 学习（第 4 章）</title>
