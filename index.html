@@ -120,7 +120,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">7</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">8</span></a>
 
   </li>
         <li class="menu-item menu-item-about">
@@ -194,6 +194,85 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/16/%E9%9B%B7%E8%BE%BE%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/your%20name.png">
+      <meta itemprop="name" content="Nemo Pan">
+      <meta itemprop="description" content="爱上一场认真的消遣">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nemo Pan's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/08/16/%E9%9B%B7%E8%BE%BE%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B/" class="post-title-link" itemprop="url">雷达系统简介</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-08-16 22:11:43 / 修改时间：22:34:59" itemprop="dateCreated datePublished" datetime="2022-08-16T22:11:43+08:00">2022-08-16</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>一个典型的雷达系统应当包含以下组件：<br>
+1.天线<br>
+天线是用来实现电磁波和电信号的转化的。天线将来自发射机的电信号以电磁波的形式辐射到空间，在遇到目标后电磁波反射，天线在接收到回波后将其转化为电信号用于后续的分析处理。正如我们在图1中看到的，天线似乎有一个指向，这就是经常提到的天线方向图，天线在某一个方向上的增益是大于其他方向上的，因此我们经常看到的天线在不停地转，就是在调整接收方向。题图中是美军的萨德系统雷达，这部雷达似乎没有我们印象中的雷达天线。这是因为萨德使用的是相控阵雷达，相控阵雷达的天线与传统雷达天线有很大的不同，在专门介绍相控阵时会更深入介绍。这部分研究主要涉及到的是雷达天线的设计。<br>
+2.发射机<br>
+发射机是产生雷达信号并经功率放大后送至天线。这部分最关键的功能在于雷达波形设计。在使用雷达时我们通常希望雷达能够更精确地定位目标且不会受到干扰，这就需要我们设计复杂的雷达信号。举个简单的例子，比如我方雷达工作在4GHz的频率，敌方很容易就能探测到我方雷达工作频率，然后就可以对我方实施电子干扰，我方雷达就不能正常工作了，为了避免这种情况的发生，我们往往需要更不易被干扰的雷达信号。这部分研究主要涉及到的是雷达波形的设计。<br>
+3.接收机<br>
+一般情况下我们无法直接分析来自天线的信号，为了得到更高的测量精度以及更好的抗干扰性能，雷达信号的频率一般都是比较高的，可以达到几十GHz，这需要我们用极快处理速度的处理器和极快传输速度的数据线来处理。为此在实际雷达信号处理中，往往通过一个接收机来对信号进行下变频至2GHz以内，再用于后续处理，至于为什么可以把几十GHz的信号下变频到2GHz以内涉及到了中频采样和信号带宽的问题，不在这里过多赘述。<br>
+4.信号处理机<br>
+这部分可以看作是雷达最核心的部分。信号处理机首先通过ADC（模拟信号到数字信号转换器）将来自接收机的模拟信号转化为数字信号，这个时候我们就可以把信号传输到电脑上进行处理了。但是电脑的处理速度太慢，因此实际雷达系统都是通过嵌入式系统来处理信号（可以实现更快的处理速度）。无论是在电脑上处理还是在嵌入式系统中处理，目的在于通过对信号的分析，从中获得目标的位置和速度信息。<br>
+5.主机<br>
+信号处理机在分析获得目标信息后，将目标信息传送到主机，主机有可能会配备诸如图2这样的显示器来以图形化的方式显示目标信息，也有可能以表格的形式显示目标信息，取决于使用者的需求。</p>
+<p>刚才我们以雷达信号传输的顺序介绍了雷达系统的组成，需要注意的是，通常还会有一条反向的控制信号传输路线，比如我们正在观测正北方的目标，想要观测正东方的目标，即使用者通过主机下达命令，然后通过信号处理机、接收机到达天线，控制天线转动至正东方。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/08/%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -225,7 +304,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-08-16 21:35:06" itemprop="dateModified" datetime="2022-08-16T21:35:06+08:00">2022-08-16</time>
+                <time title="修改时间：2022-08-16 21:45:46" itemprop="dateModified" datetime="2022-08-16T21:45:46+08:00">2022-08-16</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -250,7 +329,10 @@
       
           <h2 id="毫米波雷达的优点"><a class="header-anchor" href="#毫米波雷达的优点">¶</a>毫米波雷达的优点</h2>
 <p>毫米波（mmWave）雷达是一类使用短波长电磁波的特殊雷达，其发射波长为毫米量级的信号。电磁频谱如下图所示，毫米波波长被视为短波长。<br>
-<img src="/2022/08/08/%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89/%E7%94%B5%E7%A3%81%E9%A2%91%E8%B0%B1.jpg" alt="电磁频谱"></p>
+<img src="/2022/08/08/%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%80%EF%BC%89/%E7%94%B5%E7%A3%81%E9%A2%91%E8%B0%B1.jpg" alt="电磁频谱"><br>
+短波长的优势之一就是处理毫米波信号所需的系统组件（如天线）的尺寸很小，可将用于发送（TX）和接收（RX）的射频（RF）组件，时钟模拟组件，还有模数转换器（ADC）、微控制器（MCU）和数字信号处理器（DSP）等数字器件集成分布，降低功耗和系统总成本。</p>
+<p>短波长的另一项优势是高准确度。工作频率为76~81GHz（对应波长约为4mm）的毫米波系统将能够检测小至零点几毫米的移动。</p>
+<p>但集成分布带来的复杂性和雷达自身的高频率要求使得系统设计颇具挑战性。线性调频连续波（FMCW）雷达是连续波雷达的一种特殊类型，相对于简单连续波（CW）雷达，通过对发射信号的频率调制（或相位调制）来改变其工作频率。通过对工作频率（或相位）的测量来实现对目标信息的探测。接下来我们将详细介绍线性调频连续波雷达。</p>
 
       
     </div>
@@ -852,7 +934,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
